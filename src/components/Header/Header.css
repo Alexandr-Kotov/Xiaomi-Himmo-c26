@@ -1,0 +1,44 @@
+.header{
+  display: flex;
+  padding-top: 3px;
+}
+
+.header__logo-link{
+
+}
+
+.header__logo{
+
+}
+
+.header__list{
+  display: flex;
+  align-items: center;
+  padding-left: 543px;
+  margin: 0;
+}
+
+.header__item{
+ list-style-type: none;
+ padding-right: 50px;
+}
+
+.header__item:last-child{
+  padding-right: 0;
+}
+
+.header__link{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #131313;
+  text-decoration: none;
+}
+
+.header__link:hover{
+  color: #FFFFFF;
+  background-color: #131313;
+}

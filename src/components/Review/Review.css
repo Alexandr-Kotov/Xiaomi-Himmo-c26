@@ -1,0 +1,244 @@
+.review{
+  display: flex;
+}
+
+.review__title{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  color: #131313;
+  margin: 169px 0 5px;
+}
+
+.review__subtitle{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #6F6F6F;
+  margin: 0 0 60px;
+}
+
+.review__text{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: #131313;
+  margin: 0;
+  width: 420px;
+}
+
+.review__text_about{
+  margin: 20px 0 80px;
+}
+
+.review__button{
+  background: #131313;
+  width: 420px;
+  height: 80px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1.1em;
+  left: 20p;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: 0;
+  padding: 28px 81px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.review__button:hover{
+  background: #FF4040;
+  transition: 1s;
+}
+
+
+.review__slider{
+  margin-top: 97px;
+  margin-left: 31px;
+  width: 630px;
+  height: 525px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.review__slides{
+  width: 500%;
+  height: 525px;
+  display: flex;
+}
+
+.review__slides input{
+  display: none;
+}
+
+.review__slide{
+  width: 20%;
+  transition: 2s;
+}
+
+.review__slide img{
+  width: 630px;
+  height: 525px;
+}
+
+.review__navigation-manual{
+  position: absolute;
+  width: 630px;
+  margin-top: -475px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.review__manual-btn{
+  width: 2px;
+  height: 25px;
+  background: #131313;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: 1s;
+  margin-bottom: 10px;
+  z-index: 1;
+}
+
+.review__manual-btn:last-child{
+  margin-bottom: 0px;
+}
+
+.review__manual-btn:hover{
+  background: #FF4040;
+}
+
+#radio1:checked ~ .review__slide-first{
+  margin-left: 0;
+}
+
+#radio2:checked ~ .review__slide-first{
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .review__slide-first{
+  margin-left: -40%;
+}
+
+#radio4:checked ~ .review__slide-first{
+  margin-left: -60%;
+}
+
+.review__navigation-auto{
+  position: absolute;
+  display: flex;
+  width: 630px;
+  justify-content: center;
+  margin-top: 50px;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.review__navigation-auto div{
+  width: 2px;
+  height: 25px;
+  background: #FF4040;
+  border-radius: 7px;
+  transition: 1s;
+  margin-bottom: 10px;
+}
+
+.review__navigation-auto div:first-child{
+  z-index: 2;
+}
+
+#radio1:checked ~ .review__navigation-auto div:first-child{
+  z-index: 3;
+}
+
+#radio2:checked ~ .review__navigation-auto div:first-child{
+  z-index: 0;
+}
+
+#radio3:checked ~ .review__navigation-auto div:first-child{
+  z-index: 0;
+}
+
+#radio4:checked ~ .review__navigation-auto div:first-child{
+  z-index: 0;
+}
+
+#radio1:checked ~ .review__navigation-auto .review__auto-btn1{
+  background: #FF4040;
+  z-index: 2;
+}
+
+#radio2:checked ~ .review__navigation-auto .review__auto-btn2{
+  background: #FF4040;
+  z-index: 2;
+}
+
+#radio3:checked ~ .review__navigation-auto .review__auto-btn3{
+  background: #FF4040;
+  z-index: 2;
+}
+
+#radio4:checked ~ .review__navigation-auto .review__auto-btn4{
+  background: #FF4040;
+  z-index: 2;
+}
+
+.review__table{
+  margin-top: 21px;
+  margin-right: -26px;
+  display: flex;
+  justify-content: center;
+}
+
+.review__cell{
+  text-align: center;
+}
+
+.review__cell:nth-child(3){
+  width: 160px;
+  margin-right: 48px;
+}
+
+.review__cell:nth-child(2){
+  margin-right: 39px;
+}
+.review__cell:nth-child(1){
+  margin-right: 58px;
+}
+
+.review__cell-text_margin{
+  margin-top: -2px !important;
+}
+
+.review__cell-heading{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #131313;
+  margin: 0;
+  padding-bottom: 8px;
+}
+
+.review__cell-text{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: lowercase;
+  margin: 5px 0 0;
+}

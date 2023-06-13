@@ -1,0 +1,42 @@
+.about{
+  margin-top: 150px;
+  display: flex;
+}
+
+.about__photo{
+
+}
+
+.about__container{
+  margin-left: 60px;
+}
+
+.about__cell{
+  margin-bottom: 50px;
+}
+
+.about__cell:last-child{
+  margin: 0;
+}
+
+.about__heading{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #131313;
+  margin: 0 0 10px;
+}
+
+.about__text{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: #131313;
+  margin: 0;
+  width: 450px;
+}
