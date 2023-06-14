@@ -6,7 +6,7 @@ import bicycle4 from '../../images/review-bicycle-4.jpg';
 
 export const Review = () => {
   return (
-    <div className='review'>
+    <section className='review'>
       <div className='review__container_left'>
         <h1 className='review__title'>Xiaomi Himo C26</h1>
         <h2 className='review__subtitle'>Электрический велосипед</h2>
@@ -66,6 +66,6 @@ export const Review = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

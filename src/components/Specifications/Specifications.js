@@ -2,7 +2,7 @@ import './Specifications.css';
 
 export const Specifications = () => {
   return (
-    <div className='specifications'>
+    <section className='specifications'>
       <div className='specifications__container'>
         <h2 className='specifications__title'>xaрактеристики</h2>
         <div className='specifications__cell specifications__cell-general'>
@@ -97,8 +97,7 @@ export const Specifications = () => {
         </div> 
       </div>
       <div className='specifications__photo'>
-
       </div>
-    </div>
+    </section>
   )
 }

@@ -3,7 +3,7 @@ import aboutPhoto from '../../images/about-bicycle.jpg'
 
 export const About = () => {
   return (
-    <div className='about'>
+    <section className='about'>
       <img src={aboutPhoto} alt='Фото рассказа о велосипеде'  className='about__photo'/>
       <div className='about__container'>
         <div className='about__cell'>
@@ -32,6 +32,6 @@ export const About = () => {
           <p className='about__text'>Электровелосипед HIMO C26 укомплектован велосипедным седлом от известного бренда Selle Royal. Трехмерная гелевая структура седла обеспечивает оптимальную упругость и высокий комфорт во время езды.</p>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

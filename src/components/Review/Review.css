@@ -47,7 +47,6 @@
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 1.1em;
-  left: 20p;
   text-transform: uppercase;
   color: #FFFFFF;
   border: 0;
@@ -67,7 +66,6 @@
   margin-left: 31px;
   width: 630px;
   height: 525px;
-  border-radius: 10px;
   overflow: hidden;
 }
 
