@@ -1,6 +1,7 @@
 .about{
-  margin-top: 150px;
   display: flex;
+  max-width: 1200px;
+  margin: 150px auto ;
 }
 
 .about__photo{

@@ -1,6 +1,8 @@
 .header{
   display: flex;
   padding-top: 3px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .header__logo-link{
@@ -19,15 +21,25 @@
 }
 
 .header__item{
- list-style-type: none;
- padding-right: 50px;
+  list-style-type: none;
+  width: 150%;
+  height: 100%;
+}
+.header__item:nth-child(1){
+  margin-left: -21px;
+  margin-right: 39px;
 }
 
-.header__item:last-child{
-  padding-right: 0;
+.header__item:nth-child(2){
+  margin-right: 60px;
 }
 
 .header__link{
+  padding-top: 42px;
+  padding-bottom: 41px;
+  text-align: center;
+  display: inline-block;
+  width: 150%;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;

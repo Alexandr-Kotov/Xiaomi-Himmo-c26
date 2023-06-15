@@ -1,0 +1,80 @@
+.footer{
+  background: #131313;
+  margin-top: 100px;
+}
+
+.footer__container{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.footer__text{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: lowercase;
+  color: #FFFFFF;
+  height: 15px;
+}
+
+.footer__text_politic{
+  text-decoration: underline;
+  margin: 43px 0 0;
+  cursor: pointer;
+}
+
+.footer__image_social{
+  margin: 36px 0 0;
+  cursor: pointer;
+}
+
+.footer__container-social{
+
+}
+
+.footer__image-instagram{
+  margin-right: 30px;
+}
+
+.footer__image-facebook{
+
+}
+
+.footer__container-contact{
+
+}
+
+.footer__container-telephone{
+  display: flex;
+  margin-top: 21px;
+}
+
+.footer__image-telephone{
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+.footer__text_telephone{
+  margin: 5px 0 0;
+}
+
+.footer__container-mail{
+  display: flex;
+  margin-top: 10px;
+}
+
+.footer__image-mail{
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+.footer__text_mail{
+  margin: 4px 0 0;
+}

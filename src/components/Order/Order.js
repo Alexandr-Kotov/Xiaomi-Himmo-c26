@@ -5,7 +5,7 @@ import gray from '../../images/gray-form.jpg';
 
 export const Order = () => {
   return (
-    <section className='order'>
+    <section id='cost' className='order'>
       <form className='order__form'> 
         <h2 className='order__title'>Заказать</h2>
         <p className='order__text'>Если Вы хотите заказать велосипед, оставьте свой контакт и наш менеджер перезвонит вам в ближайшее время</p>

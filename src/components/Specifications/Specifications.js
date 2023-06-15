@@ -2,7 +2,7 @@ import './Specifications.css';
 
 export const Specifications = () => {
   return (
-    <section className='specifications'>
+    <section id='specifications' className='specifications'>
       <div className='specifications__container'>
         <h2 className='specifications__title'>xaрактеристики</h2>
         <div className='specifications__cell specifications__cell-general'>
